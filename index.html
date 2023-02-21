@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rakesh Vishwakarma</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Rv.jpg" class="logo">
+                <ul id="sidemenu">  
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>IT Engineer</p>
+                <h1>Hi, I'm <span> Rakesh Vishwakarma </span><br> from India</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/User.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quibusdam 
+                    suscipit velit quae, cupiditate distinctio a voluptas laboriosam dicta 
+                    vitae? Dignissimos officiis inventore nisi minus tempore molestiae commodi 
+                    beatae accusamus?
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Programming Languages:</span><br>Java, Python, JavaScript</li>
+                            <li><span>Web Development</span><br>Frontend: HTML, CSS, JS <br> Backend: Nodejs, Mongodb, MySQL</li>
+                            <li><span>Other skills</span><br>Microsoft Azure, Git & GitHub, MS Office</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Future Ready Talent</span><br>Created a Web Application on Application Design and Chatbot
+                                Using azure Service and learned a lots of Azure tools.</li>
+                            <li><span>Nazareth Foundation</span><br>Created a Prototype of the APP and Brochure, etc.</li>
+                            <li><span>Oasis Infobyte</span><br>Created a Calculator, Todolist and Student Enrolment form.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>University of Mumbai</span><br>Bacholor of Engineering in Information Technology, with CGPA 8.29.</li>
+                            <li><span>Thakur College of Science and Commerce</span><br>HSC, Subjects: Physic, Chemistry, Maths, Biology.</li>
+                            <li><span>Pal Rajendra High School</span><br>SSC</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste labore totam 
+                    nihil sit fugiat consequatur officia similique hic? Tenetur nostrum dicta 
+                    aliquam sit aspernatur ullam cum optio obcaecati doloribus nihil?</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div> 
+                    <i class="fas fa-code"></i>
+                    <h2>Machine Learning</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste labore totam 
+                    nihil sit fugiat consequatur officia similique hic? Tenetur nostrum dicta 
+                    aliquam sit aspernatur ullam cum optio obcaecati doloribus nihil?</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa fa-laptop" aria-hidden="true"></i>
+                    <h2>Digital Marketing</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste labore totam 
+                    nihil sit fugiat consequatur officia similique hic? Tenetur nostrum dicta 
+                    aliquam sit aspernatur ullam cum optio obcaecati doloribus nihil?</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/Images/ADW.jpg">
+                    <div class="layer">
+                        <h3>Application Design Website</h3>
+                        <p>Created Website for reference purpose of the student</p>
+                        <a href="https://github.com/Rakesh1121/ApplicationDesign"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/Images/House.jpg">
+                    <div class="layer">
+                        <h3>House price prediction</h3>
+                        <p>Predicting House Prices According to Area in Mumbai</p>
+                        <a href="https://github.com/Rakesh1121/Mumbai-House-Price-Prediction"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/Images/CW.jpg">
+                    <div class="layer">
+                        <h3>Carpenter Website</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa fa-envelope" aria-hidden="true"></i>rakeshvish6636@gmail.com</p>
+                    <p><i class="fa fa-phone" aria-hidden="true"></i>+91 8108994374</p>
+                    <div class="social-icon">
+                        <a href="https://www.facebook.com/profile.php?id=100013817522669"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/rakeshvish1121/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://www.linkedin.com/in/rakesh-vishwakarma-312a681b7/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/Rakeshv65854653"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="https://github.com/Rakesh1121"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    </div>
+                    <a href="/Images/Rakeshvishwakarma.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Sumbit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>@RakeshVishwakarma, All Rights Reserved</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwkaZo35LV0aOtCspbpC0kI8O2TahrRxsEwIc327c5kw5G58oyov8yOyHCEBkkRyBm6cQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
